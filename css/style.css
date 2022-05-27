@@ -29,6 +29,8 @@
                         header,
                         aside {
                             display: block;
+                            min-width: 465px;
+                            ;
                         }
                         
                         html,
@@ -88,7 +90,7 @@
                         }
                         
                         h6 {
-                            font-size: 10px;
+                            font-size: 20px;
                         }
                         /*?-----------===================================================================================---------
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -96,6 +98,7 @@
                         
                         * {
                             box-sizing: border-box;
+                            max-width: 100%;
                         }
                         
                         .marquee-text {
@@ -174,8 +177,10 @@
                         }
                         
                         .header-text {
-                            justify-content: flex-start;
-                            align-items: center;
+                            line-height: 2;
+                            margin: 10px;
+                            padding: 10px;
+                            font-weight: 500;
                         }
                         
                         .header-text-T {
@@ -189,15 +194,18 @@
                         
                         .header-text-image {
                             margin-right: 0.6em;
+                            ;
                         }
                         
                         .header-top {
                             display: flex;
                             flex-wrap: wrap;
+                            align-items: center;
                             justify-content: space-around;
                             list-style: none;
+                            max-width: 70%;
+                            min-width: 319px;
                             margin: 20px auto;
-                            padding: 0px;
                         }
                         
                         .header-top li {
@@ -629,7 +637,7 @@
                             padding: 20px;
                             text-align: center;
                             margin: auto;
-                            box-shadow: 1px 5px 1px rgb(82, 2, 26));
+                            box-shadow: 1px 5px 1px rgb(82, 2, 26);
                             transition: background-color 0.5s ease 0s;
                             position: relative;
                             top: 0;
